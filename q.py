@@ -57,7 +57,7 @@ def parse(html):
     # print(rows)
     # for rows in table
 
-
+#
 def save(projects, path):
     with open(path, 'w') as csvfile:
         writer = csv.writer(csvfile)
